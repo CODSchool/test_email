@@ -1,14 +1,22 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    height: 100%;
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
     width: 100%;
-    
-}
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
 
 header {
     margin-top: -120px;
+}
+
+.title_img {
+    margin-top: 95px;
 }
 
 .container, form {
@@ -18,8 +26,8 @@ header {
     justify-content: center;
     text-align: center;
 
-
 }
+
 
 h1, h2 {
     font-weight: 700;
@@ -65,7 +73,6 @@ p{
     color: #fff;
     font-weight: 700;
     font-size: 18px;
-    margin-bottom: 96px;
 }
 
 input[placeholder]{
@@ -96,6 +103,13 @@ input[placeholder]{
 }
 
 .v2 {
+    /* margin-top: 9rem; */
     width: 214.43px;
     height: 156.48px;
 }
+
+.photo_r {
+    margin-top: 96px;
+}
+
+
