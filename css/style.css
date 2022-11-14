@@ -9,7 +9,10 @@
     padding: 0;
     margin: 0;
   }
-
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
 
 header {
     margin-top: -120px;
@@ -58,6 +61,10 @@ p{
     border-radius: 25px;
 }
 
+input:focus{
+    border: 2px solid #22B0FF !important;
+    }
+
 #submit {
     margin-top: 15px;
     width: 325px;
@@ -73,12 +80,13 @@ p{
     color: #fff;
     font-weight: 700;
     font-size: 18px;
+    cursor: pointer;
 }
 
 input[placeholder]{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: #A0C3D6;
+    color: #22B0FF;
     font-weight: 700;
     padding-left: 25px;
 }
@@ -88,6 +96,9 @@ input[placeholder]{
 :-moz-placeholder           {color:#A0C3D6;}/* Firefox 18- */
 :-ms-input-placeholder      {color:#A0C3D6;}
 
+input[type=email]:checked~label {
+    border: 1px solid #22B0FF;
+  }
 
 .v1 {
     width: 185.81px;

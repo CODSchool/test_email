@@ -25,9 +25,9 @@
             <h2>We're Launching Soon</h2>
             <p>Be one of the first to experience it by<br> entering your e-mail below</p>
         </div>
-        <form action="">
-            <input type="email" name="email" id="email" placeholder="Your E-mail">
-            <input type="submit" name="submit" id="submit" value="Notify Me">
+        <form action="" onmousedown="viewDiv()" >
+            <input type="email" name="email" id="email" placeholder="Your E-mail" >
+            <input type="submit" name="submit" id="submit" value="Notify Me" style="margin-top:15px;width:325px;height:50px;background:#22b0ff;border-radius:25px;flex:none;order:1;align-self:stretch;flex-grow:0;border:1px solid #22b0ff;font-family:'Montserrat',sans-serif;color:#fff;font-weight:700;font-size:18px;cursor: pointer;">
         </form>
     </main>
 </div>
@@ -36,5 +36,11 @@
         <img class="v2" src="img/Vector2.svg" alt="">
     </div>
 </footer>
+<script>
+     function viewDiv(){
+        document.getElementById("submit").style.background="rgba(34, 176, 255, 0.75)";    
+    } 
+</script>
 </body>
 </html>
+
