@@ -81,6 +81,7 @@ input:focus{
     font-weight: 700;
     font-size: 18px;
     cursor: pointer;
+    letter-spacing: 0.01em;
 }
 
 #submit:hover{
@@ -94,6 +95,7 @@ input[placeholder]{
     color: #22B0FF;
     font-weight: 700;
     padding-left: 25px;
+    letter-spacing: 0.01em;
 }
 
 ::-webkit-input-placeholder {color:#A0C3D6;}
