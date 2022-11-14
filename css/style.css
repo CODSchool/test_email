@@ -83,6 +83,11 @@ input:focus{
     cursor: pointer;
 }
 
+#submit:hover{
+    border: 1px solid rgba(34, 176, 255, 0.75);;
+    background: rgba(34, 176, 255, 0.75);;
+}
+
 input[placeholder]{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
