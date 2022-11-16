@@ -1,3 +1,8 @@
+<!-- Developer Ilia Kombarov -->
+<!-- s6kaKpqt2LwU@Zq -->
+<?php
+    include 'user.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,9 +30,9 @@
             <h2>We're Launching Soon</h2>
             <p>Be one of the first to experience it by<br> entering your e-mail below</p>
         </div>
-        <form action="" onmousedown="viewDiv()" >
+        <form action="index.php" method="post" onmousedown="viewDiv()" >
             <input type="email" name="email" id="email" placeholder="Your E-mail" >
-            <span class="error">Please Enter a Valid E-mail</span>
+            <span class="error"><?php echo $errMsg; ?></span>
             <input type="submit" name="submit" id="submit" value="Notify Me">
         </form>
     </main>
