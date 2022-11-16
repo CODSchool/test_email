@@ -1,9 +1,9 @@
 <?php
 $driver = "mysql";
 $host = "localhost";
-$db_name = "soon";
-$db_user = "root";
-$db_pass = "root";
+$db_name = "myfrkpsr_myfrienty";
+$db_user = "myfrkpsr_myfrienty";
+$db_pass = "s6kaKpqt2LwU@Zq";
 $charset = "utf8";
 $opt =   [PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,];
 

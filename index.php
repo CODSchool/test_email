@@ -1,5 +1,5 @@
 <!-- Developer Ilia Kombarov -->
-<!-- s6kaKpqt2LwU@Zq -->
+<!-- http://ilyakombarov.space/ -->
 <?php
     include 'user.php';
 ?>
@@ -41,12 +41,14 @@
     <div class="photo_r">
         <img class="v2" src="img/Vector2.svg" alt="">
     </div>
+    <span style="color: #fff;"><a href="http://ilyakombarov.space/" style="color: #fff; font-size: 5px;">веб-разработчик Илья Комбаров</a></span>
 </footer>
 <!-- <script>
      function viewDiv(){
         document.getElementById("submit").style.background="rgba(34, 176, 255, 0.75)";    
     } 
 </script> -->
+
 </body>
 </html>
 
